@@ -9,6 +9,9 @@ h1{
   float: right;
   clear: both;
 } 
+.form{
+  margin-left: 25%;
+}
 .youth{
   height: 300px;
   display: inline-block;
