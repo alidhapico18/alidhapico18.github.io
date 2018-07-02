@@ -13,6 +13,7 @@ h1{
 .topnav {
   padding: 20px 0px; 
   margin-top: 11%;
+  clear: both;
 
 }
 
@@ -34,7 +35,8 @@ h1{
 .topnav {
   overflow: hidden;
   background-color: #333;
-font-family: 'IM Fell English SC', serif;
+  font-family: 'IM Fell English SC', serif;
+  margin-top: 2%;
 }
 
 .topnav a {
@@ -64,7 +66,7 @@ font-family: 'IM Fell English SC', serif;
 
 header {
   font-family: 'Cookie', cursive;
-  font-size: 36px;
+  font-size: 26px;
   text-align: center;
 }
 
@@ -91,7 +93,9 @@ p{
   text-align: center;
   text-size: 20px;
 }
-
+img{
+  border-radius: 5%;
+}
 .intro{
   text-align: center;
 }
@@ -117,25 +121,29 @@ h2{
 }
 
 .logo{
-  margin-right: 38%;
+  margin-left: 3%;
+  float: left;
 }
-.bottomphotos1{
+.bottomphoto1{
   height: 300px;
   display: inline-block;
+  margin-left: 2%;
 }
 
 
 .info{
   float: left;
+  margin-top: 4%;
+  margin-left: 13%;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
 
@@ -144,11 +152,14 @@ h2{
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+   background: #3B5998;
+   color: white;
 }
 .fixed{
-
+  float: inherit;
+  margin-top: 6%;
+  margin-right: 10%;
+  font-size: 84px;
 }
 .fa-twitter {
     background: #55ACEE;
