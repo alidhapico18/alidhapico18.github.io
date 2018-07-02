@@ -191,3 +191,10 @@ h2{
     display: block;
     text-align: left;
   }
+  .info {
+    margin-top: 4%;
+    float: left;
+  }
+  .photos{
+    width:100%;
+  }
