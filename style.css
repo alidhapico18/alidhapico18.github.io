@@ -1,29 +1,33 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-family: 'IM Fell English SC', serif;
   background-color: tan;
 }
+h1{
+  display: inline-block;
+  font-family: 'Cookie', cursive;
+  float: right;
+  clear: both;
+} 
 
 .topnav {
-	padding: 20px 0px;	
+  padding: 20px 0px; 
+  margin-top: 11%;
+
 }
 
 .topnav a {
-	text-decoration: none;
-	color: white;
-	padding: 10px;
-	font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
   font-family: 'IM Fell English SC', serif;
 }
 
 .topnav a:hover {
-	text-decoration: none;
-	color: yellow;
-	background-color: black;
-  font-family: 'IM Fell English SC', serif;
-}
-
-body {
-  margin: 0;
+  text-decoration: none;
+  color: yellow;
+  background-color: black;
   font-family: 'IM Fell English SC', serif;
 }
 
@@ -65,8 +69,8 @@ header {
 }
 
 footer {
-	border-top: 1px solid black;
-	margin-top: 40px;
+  border-top: 1px solid black;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -84,13 +88,26 @@ ul{
 }
 
 p{
-  text-align: left;
+  text-align: center;
   text-size: 20px;
 }
 
 .intro{
   text-align: center;
 }
+
+.land-2{
+height: 353px;
+display: inline-block;
+margin-left: 16%;
+}
+
+.land-3{
+height: 353px;
+display: inline-block;
+margin-left: 4%;
+}
+
 .textcenter{
   text-align: center;
 }
@@ -100,14 +117,16 @@ h2{
 }
 
 .logo{
-
-
+  margin-right: 38%;
 }
-.bottomphotos{
+.bottomphotos1{
+  height: 300px;
+  display: inline-block;
 }
 
-img{
 
+.info{
+  float: left;
 }
 
 .fa {
@@ -128,21 +147,26 @@ img{
     background: #3B5998;
     color: white;
 }
+.fixed{
 
+}
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
 
-@media (max-width: 959px) {
-
+.clear {
+  margin-top: 0%;
 }
+
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
+    clear:both;
   }
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -156,6 +180,3 @@ img{
     display: block;
     text-align: left;
   }
-
-
-
