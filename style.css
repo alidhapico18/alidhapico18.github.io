@@ -9,11 +9,17 @@ h1{
   float: right;
   clear: both;
 } 
+.youth{
+  height: 300px;
+  display: inline-block;
+  margin-left: 12%;
+}
 
 .topnav {
   padding: 20px 0px; 
   margin-top: 11%;
   clear: both;
+  display: list-item;
 
 }
 
@@ -91,7 +97,7 @@ ul{
 
 p{
   text-align: center;
-  text-size: 20px;
+  font-size: 20px;
 }
 img{
   border-radius: 5%;
