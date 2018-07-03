@@ -93,6 +93,10 @@ footer {
   width: 0 auto;
   height: 0 auto
 }
+div{
+margin-left: -4%;
+
+}
 
 ul{
   list-style: none;
@@ -136,7 +140,7 @@ h2{
 .bottomphoto1{
   height: 300px;
   display: inline-block;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 
